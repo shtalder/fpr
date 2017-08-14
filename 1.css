@@ -7,10 +7,10 @@ body {position: absolute;left: 0px;top: 0px;width: auto;min-width: 100%;height: 
 #minW {position: relative;height: 1px;overflow: hidden;}
 #footer {position: absolute;z-index: 200;left: 0px;bottom: 0;width: 100%;background-color: #7d7f82;}
 
-/*аМаИаНаИаМаАаЛбаНаАб баИбаИаНаА */
+/*минимальная ширина */
 #minW {width: 1220px;}
 
-/*аВббаОбаА аПаОаДаВаАаЛаА бббаАаНаАаВаЛаИаВаАаЕббб аВ #footer аИ аДбаБаЛаИббаЕббб аВ аНаИаЖаНаЕаМ аПаАаДаДаИаНаГаЕ #mainBox */
+/*высота подвала устанавливается в #footer и дублируется в нижнем паддинге #mainBox */
 #footer {height: 41px;}
 #mainBox {padding-bottom: 41px;}
 
